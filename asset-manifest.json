@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-deploy/static/css/main.9a9b2411.css",
-    "main.js": "/react-deploy/static/js/main.e6d146fd.js",
+    "main.js": "/react-deploy/static/js/main.5c4cd3cf.js",
     "static/media/grass2.jpg": "/react-deploy/static/media/grass2.9df57f4659b159bc483d.jpg",
     "static/media/shoe10.jpg": "/react-deploy/static/media/shoe10.85ee889a6ef7ac01411c.jpg",
     "static/media/shoe3.jpg": "/react-deploy/static/media/shoe3.fae7ef68c0804693afb1.jpg",
@@ -11,10 +11,10 @@
     "static/media/ikercasillas.jpg": "/react-deploy/static/media/ikercasillas.3d1a1e063e58e3314681.jpg",
     "index.html": "/react-deploy/index.html",
     "main.9a9b2411.css.map": "/react-deploy/static/css/main.9a9b2411.css.map",
-    "main.e6d146fd.js.map": "/react-deploy/static/js/main.e6d146fd.js.map"
+    "main.5c4cd3cf.js.map": "/react-deploy/static/js/main.5c4cd3cf.js.map"
   },
   "entrypoints": [
     "static/css/main.9a9b2411.css",
-    "static/js/main.e6d146fd.js"
+    "static/js/main.5c4cd3cf.js"
   ]
 }

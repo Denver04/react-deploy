@@ -1,0 +1,35 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    margin-top: 17px;
+    padding: 40px 0px 0px;
+}
+
+.contact{
+    /* border: 2px solid red; */
+    width: 25%;
+    height: 420px;
+    border-radius: 5px;
+    position: relative;
+    margin:7% auto;
+    box-shadow: 10px 10px 15px rgb(222, 218, 218) , -10px -10px 15px rgb(222, 218, 218)
+}
+
+.info{
+    line-height: 1.7rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+    
+}
+
+.info-h{
+    line-height: 0.5;
+    font-weight:lighter;
+    margin-bottom: 24px;
+}
+.info-p{
+    line-height: 0;
+    font-size: 0.9rem;
+}

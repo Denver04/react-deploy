@@ -1,0 +1,85 @@
+.store-design{
+    /* border: 2px solid rebeccapurple; */
+    position: relative;
+    top: 45px;
+    height: 47rem;
+    box-shadow: 10px 0 15px rgb(222, 218, 218) , -10px 0 15px rgb(222, 218, 218);
+    font-family: 'Roboto', sans-serif;
+
+    /* outline-offset: 50px; */
+
+}
+
+.filter{
+    font-size: 2.1rem;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.cost{
+    font-size: 1.7rem;
+    position: relative;
+    right: 35%;
+    top: 7px;
+}
+.cost-design{
+    font-size: 1.7rem;
+    position: relative;
+    right: 10%;
+    top: 7px;
+    /* margin: 0 25px; */
+}
+.topping{
+    position: relative;
+    right: 35%;
+    top: 3%;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5;
+}
+
+.check{
+    position: relative;
+    left: 42%;
+    top: 11px;
+}
+
+.store-shoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.store-img{
+    /* border: 2px solid red; */
+    margin: 60px 10px;
+    height: 50%;
+    background-color: #f4f4f4;
+}
+
+.store-img img{
+    width: 70%;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+    /* bottom: auto; */
+    top: 32px;
+}
+
+.store-p{
+    position: relative;
+    bottom: 18%;
+    font-size: 1.5rem;
+    right: 22%;
+}
+
+.store-cost{
+    position: relative;
+    bottom: 24%;
+    font-size: 0.9rem;
+    right: 26%;
+}
+.store-rating{
+    position: relative;
+    bottom: 35%;
+    left: 24%;
+}

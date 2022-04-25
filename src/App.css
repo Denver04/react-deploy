@@ -1,38 +1,52 @@
-.App {
+body {
   text-align: center;
+  /* color: white; */
+  background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  width: 4%;
+  position: relative;
+  left: 14%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Buttons{
+  /* color: black; */
+  position: relative;
+  left: 60vh;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 10px;
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+.Buttons:hover{
+  text-decoration: underline;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.User{
+  position: relative;
+  left: 90vh;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  outline: none;
+}
+
+.footer{
+  padding: 2px;
+  margin: 2px;
+  -ms-transform: scale(0.7,0.7); /* IE 9 */
+-webkit-transform: scale(0.7,0.7); /* Safari */
+transform: scale(0.7,0.7);
+}
+.footer-text{
+  font-weight: 500;
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif
+}
+.Footer{
+  position: relative;
+  top: 8rem;
 }

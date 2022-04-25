@@ -1,0 +1,112 @@
+.mainJourney{
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+h2{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size: 4rem;
+    color: red;
+    font-weight: bold;
+    font-family: 'Trirong', serif;
+}
+
+.journey{
+    position: absolute;
+    bottom: 35%;
+    /* left: 10%; */
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.journey h3{
+    left: 15%;
+    position: absolute;
+}
+
+.journey p{
+    position: relative;
+    left: 15%;
+    bottom: 0%;
+    top: 32px;
+    text-align: left;
+    width: 70%;
+    font-size: 0.88rem;
+    /* font-weight: bold; */
+}
+
+.journey1{
+    position: absolute;
+    bottom: 20%;
+    /* left: 10%; */
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.journey1 h3{
+    left: 15%;
+    position: absolute;
+}
+
+.journey1 p{
+    position: relative;
+    left: 15%;
+    bottom: 0%;
+    top: 32px;
+    text-align: left;
+    width: 70%;
+    font-size: 0.88rem;
+}
+
+.journey2{
+    position: absolute;
+    bottom: 5%;
+    /* left: 10%; */
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.journey2 h3{
+    left: 15%;
+    position: absolute;
+}
+
+.journey2 p{
+    position: relative;
+    left: 15%;
+    bottom: 0%;
+    top: 32px;
+    text-align: left;
+    width: 70%;
+    font-size: 0.88rem;
+}
+
+.journey3{
+    position: absolute;
+    bottom: -10%;
+    /* left: 10%; */
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.journey3 h3{
+    left: 15%;
+    position: absolute;
+}
+
+.journey3 p{
+    position: relative;
+    left: 15%;
+    bottom: 0%;
+    top: 32px;
+    text-align: left;
+    width: 70%;
+    font-size: 0.88rem;
+}
+
+.img{
+    width: 80%;
+    height: 800px;
+}

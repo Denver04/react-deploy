@@ -1,6 +1,6 @@
 import './App.css';
 // import NavBar from './Header';
-import { BrowserRouter ,Route , Routes } from 'react-router-dom';
+import { HashRouter ,Route , Routes } from 'react-router-dom';
 import Home from './Home';
 import Journey from './Journey';
 import Team from "./Team";
@@ -11,18 +11,20 @@ import Header from "./Header";
 import Footer from './Footer';
 
 function App() {
+
+  const home_url="http://localhost:3000/";
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Header/>
     <Routes>
-      <Route exact path="/" element={<Home />} />
+      <Route exact path={home_url} element={<Home />} />
       <Route exact path="/store" element={<Store />} />
       <Route exact path="/contact" element={<Contact />} />
       <Route exact path="/journey" element={<Journey />} />
       <Route exact path="/team" element={<Team />} />
     </Routes>
     <Footer />
-    </BrowserRouter>
+    </HashRouter>
     
   );
 }
